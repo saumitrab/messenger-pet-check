@@ -1,0 +1,24 @@
+{
+  "name": "messenger-pet-check",
+  "version": "1.0.0",
+  "description": "A bot to keep track of adoptable pets.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js >> /var/log/log"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/saumitrab/messenger-pet-check.git"
+  },
+  "author": "Saumitra Bhanage",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/saumitrab/messenger-pet-check/issues"
+  },
+  "homepage": "https://github.com/saumitrab/messenger-pet-check#readme",
+  "dependencies": {
+    "express": "^4.14.0",
+    "pino": "^2.8.3"
+  }
+}
